@@ -16,9 +16,15 @@ for i in range(10):
                 print('Correct! Congratulation!')
                 break
             elif ans_number < ans:
+                #ヒント
                 print('Wrong answer. The answer is a larger number')
             elif ans_number > ans:
+                #ヒント
                 print('Wrong answer. The answer is a smaller number')
+
+            #最後の特大ヒント
+            if i==8:
+                print("Last hint: Answer is around",ans-ans%10)
 
         else:
             #３桁の数字でない場合

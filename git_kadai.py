@@ -1,3 +1,4 @@
+#課題パターン２
 import random as rd
 
 ans=rd.randint(100,999)

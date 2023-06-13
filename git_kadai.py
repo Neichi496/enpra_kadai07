@@ -8,9 +8,9 @@ while ans_checker=='flase':
     ans_input=input("Please enter a three digit number: ")
     ans_number=int(ans_input)
     if ans_number==ans:
-        print('Correct!')
+        print('Correct! Congratulation!')
         ans_checker='ture'
     elif ans_number < ans:
-        print('The answer is a larger number')
+        print('Wrong answer. The answer is a larger number')
     elif ans_number > ans:
-        print('The answer is a smaller number')
+        print('Wrong answer. The answer is a smaller number')
